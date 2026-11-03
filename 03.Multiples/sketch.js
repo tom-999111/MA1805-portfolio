@@ -1,11 +1,12 @@
 /* AUTOMATICALLY GENERATED GRID */
 
 // Initialise variables 
-let row = 19;     // Number of shapes in a row
-let col = 30;     // Number of shapes in a col
-let pad = 5;      // Padding between shapes 
-let sWidth, sHeight;  
-let rgba = [87, 163, 221, 255];     
+const row = 19;     // Number of shapes in a row
+const col = 30;     // Number of shapes in a col
+const pad = 5;      // Padding between shapes 
+let sWidth, sHeight;
+let words = [ "Blue", "Circles", "Are", "Fun"]  
+let rgba = [87,101,255,100];     
 
 function setup() {
     createCanvas(windowWidth, windowHeight); // canvas width/height
@@ -15,6 +16,7 @@ function setup() {
     noStroke(1000);
     textSize(50);
   textAlign(CENTER);
+// The text diplay
 
  
 }
