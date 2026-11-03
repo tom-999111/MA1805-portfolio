@@ -1,16 +1,20 @@
-let i = 0;
+let i = 1;
+const speed = true;
 
 function setup() {
 createCanvas(700, 700);
+
   
 }
 
 function draw() {
 background(112,41,99);
 
+
 //Green line 1
 stroke(46,139,87);
 line(0, 500, 8700, 500);
+
 
 //Green line 2
 stroke(46,139,87);
@@ -71,11 +75,11 @@ stroke
 
 //Black circle eye centre 1
 fill(72, 60, 50);
-circle(270, 330, 35);
+circle(270, 330, 35/2);
 
 //Brown outer circle eye 2
 fill(150, 105, 25);
-circle(430, 330, 100);
+circle(430, 330*2, 100);
 
 //Black circle eye centre 2
 fill(72, 60, 50);
@@ -103,6 +107,6 @@ stroke(0);
 point(550, 550);
 
 // Increment i
-i = i+1;
+i = i +1;
 
 }
