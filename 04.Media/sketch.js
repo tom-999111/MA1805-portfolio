@@ -5,12 +5,17 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(9999,9999);
 }
 
 function draw() {
-  background(220);
+  background(79,121,66);
 
 //Draw the image. 
 image (img, 0, 0)
 }
+
+
+
+
+
